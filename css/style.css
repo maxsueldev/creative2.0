@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
+@font-face {
+  font-family: fontastique;
+  src: local("fontastique.ttf"), url(../font/fontastique.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.boxContainer {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.boxContainer .leftContainer {
+  width: 22vw;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  background-color: #F8F8F8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Dancing Script", cursive;
+  z-index: 2;
+}
+.boxContainer .leftContainer .imgLogo {
+  width: 150px;
+}
+.boxContainer .leftContainer h3 {
+  font-size: 2.5rem;
+}
+.boxContainer .rightContainer {
+  width: 78vw;
+  height: 100%;
+  font-family: fontastique, sans-serif;
+}
+.boxContainer .rightContainer .intro {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../img/intro.png");
+  background-size: cover;
+  color: #FFFFFF;
+}
+.boxContainer .rightContainer .intro h1 {
+  font-size: 75px;
+}
+.boxContainer .rightContainer .intro p {
+  font-size: 50px;
+}
+.boxContainer .rightContainer .quemSomos {
+  height: 548px;
+  color: #814B67;
+}
+.boxContainer .rightContainer .quemSomos .girlQuemSomos {
+  width: 37%;
+  height: 37%;
+  position: relative;
+  left: 2%;
+  top: 17px;
+  float: left;
+  z-index: 1;
+}
+.boxContainer .rightContainer .quemSomos .container {
+  display: flex;
+}
+.boxContainer .rightContainer .quemSomos .texto {
+  padding-left: 80px;
+  position: relative;
+  top: 16px;
+}
+.boxContainer .rightContainer .quemSomos .texto h3 {
+  font-size: 60px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.boxContainer .rightContainer .quemSomos .texto p {
+  font-size: 30px;
+  line-height: 35px;
+  padding-bottom: 0.7em;
+}
+.boxContainer .rightContainer .quemSomos .texto div {
+  text-align: center;
+}
+.boxContainer .rightContainer .quemSomos .texto div a {
+  color: #F8F8F8;
+  background-color: #814B67;
+}
+.boxContainer .rightContainer .quemSomos .cloud_01_bottom {
+  width: 100%;
+  height: 30%;
+  position: relative;
+  bottom: 130px;
+  z-index: 1;
+}
+.boxContainer .rightContainer .cursos {
+  background-color: #814B67;
+  color: #F8F8F8;
+  text-align: center;
+  padding: 60px 0;
+  margin-top: 10px;
+}
+.boxContainer .rightContainer .cursos img {
+  width: 80px;
+  height: 80px;
+}
+.boxContainer .rightContainer .cursos .titulo {
+  font-size: 60px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.boxContainer .rightContainer .cursos .containerCursos {
+  display: flex;
+  flex-direction: column;
+}
+.boxContainer .rightContainer .cursos .grade-curso {
+  display: flex;
+  padding-top: 40px;
+}
+.boxContainer .rightContainer .cursos .second {
+  padding-top: 50px;
+}
+.boxContainer .rightContainer .cursos .fundo_curso {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #F8F8F8;
+  margin: 0 auto;
+}
+.boxContainer .rightContainer .cursos .nome_curso {
+  font-size: 20px;
+  padding-top: 15px;
+}
+.boxContainer .rightContainer .cursos .descricao_curso {
+  font-size: 16px;
+  padding: 16px 25px 0 25px;
+}
+.boxContainer .rightContainer .cursos a {
+  color: #814B67;
+  background-color: #F8F8F8;
+}
+.boxContainer .rightContainer .cursos .btn_ver_mais {
+  padding-top: 60px;
+}/*# sourceMappingURL=style.css.map */
